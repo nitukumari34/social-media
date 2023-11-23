@@ -7,7 +7,7 @@ module.exports = async () => {
 
 
     try {
-       const connect = await mongoose.connect(mongoURI, {
+        const connect = await mongoose.connect(mongoURI, {
             useUnifiedTopology: true,
             useNewUrlParser: true,
         });
